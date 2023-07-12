@@ -1,0 +1,359 @@
+* {
+  font-family: "Roboto";
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+.active {
+  color: #068ff1;
+  border: 1px solid #068ff1;
+  padding: 10px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+/* slide 1 */
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 40px;
+  margin-top: 30px;
+}
+
+.left-section {
+  flex: 1;
+  position: relative;
+  left: 60px;
+}
+h1 {
+  font-weight: 900;
+  font-size: 62px;
+}
+
+h4 {
+  color: rgba(128, 128, 128, 0.714);
+  font-size: 14px;
+}
+
+button {
+  background-color: #068ff1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0.3rem;
+}
+
+.right-section {
+  width: 100%;
+  flex: 1;
+}
+.svg1 {
+  height: 70%;
+  width: 60%;
+  position: relative;
+  margin-top: 20px;
+  left: 240px;
+}
+.svg1 {
+  height: 70%;
+  width: 60%;
+  position: relative;
+  margin-top: 20px;
+  left: 240px;
+}
+.svg2 {
+  transform: scale(0.5);
+  position: absolute;
+  top: 20px;
+  border: 1px solid #1f1f1f;
+
+  left: -90px;
+}
+
+.svg3 {
+  transform: scale(0.8);
+  position: relative;
+  bottom: 40px;
+}
+
+.card-image {
+  transform: scale(0.2);
+}
+
+.slide-card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.row1 {
+  display: flex;
+}
+.row2 {
+  display: flex;
+}
+
+.card {
+  padding: 40px;
+}
+
+.slide6 {
+  background-color: #068ff1;
+  color: #fff;
+  display: flex;
+  padding: 30px;
+}
+.slide6_head {
+  background-color: #068ff1;
+  color: #fff;
+  margin-bottom: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+.package {
+  background-color: #fff;
+  color: #1f1f1f;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  width: 350px;
+  padding: 0px;
+  border-radius: 0.3rem;
+}
+
+.name {
+  padding-left: 30px;
+}
+.black {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+span {
+  color: grey;
+}
+
+.package-price {
+  padding-left: 30px;
+}
+.package-button {
+  background-color: #fff;
+  color: #068ff1;
+  border: 1px solid #068ff1;
+  border-radius: 0.6rem;
+  padding: px -15px;
+  display: inline;
+  transform: scale(0.9);
+
+  font: size 15px;
+}
+
+.activeBtn {
+  background-color: #068ff1;
+  color: #fff;
+}
+
+.pkgBtn {
+  padding-left: 90px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* customer */
+
+.custHead {
+  align-items: center;
+  position: absolute;
+  left: 320px;
+}
+.custP {
+  color: grey;
+  position: relative;
+  left: 250px;
+  top: 125px;
+}
+
+.customer-love {
+  align-items: center;
+  position: absolute;
+  left: 320px;
+}
+
+.customer-cards {
+  display: flex;
+  position: relative;
+  top: 180px;
+  padding: 20px;
+}
+
+.customer-card {
+  padding: 30px;
+  margin-bottom: 30px;
+  margin: 1px solid black;
+}
+
+/* quit */
+
+.quit {
+  display: flex;
+  position: relative;
+  top: 90px;
+  background-color: #068ff1;
+  height: 280px;
+  margin-top: 40px;
+}
+
+.lquit {
+  color: #fff;
+  font-size: 32px;
+  margin-left: 40px;
+}
+
+.quitP {
+  color: rgb(183, 174, 174);
+  font-size: 14px;
+}
+.lbutton {
+  position: relative;
+  top: 80px;
+  left: 720px;
+  border: 1px solid #fff;
+  height: 40px;
+  border-radius: 0.3rem;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 90px;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+  transform: scale(1);
+  position: relative;
+  left: 90px;
+  margin-bottom: 0;
+  border: 1px solid #f1f1f1;
+}
+
+.f2 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+.f3 {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-logoP {
+  color: grey;
+  position: relative;
+  top: 46px;
+  right: 60px;
+}
+
+.menu {
+  margin-left: 80px;
+  padding-right: 40px;
+  color: grey;
+}
+h5 {
+  font-weight: normal;
+}
+
+.footer-section {
+  display: flex;
+  margin-top: 12rem;
+  gap: 50px;
+}
+
+.left {
+  margin-left: 2rem;
+}
+
+.footer-logo {
+  width: 30%;
+}
+
+.right {
+  display: flex;
+  margin-left: 5rem;
+  gap: 50px;
+}
+
+.links,
+.overview {
+  margin-left: 2.5rem;
+}
+
+p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.social-media {
+  width: 100%;
+  margin-left: 3rem;
+}
+.social-Icons {
+  display: flex;
+}
+
+.social-media img {
+  width: 12%;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  .custHead {
+    align-items: flex-start;
+    position: absolute;
+    left: 20px;
+  }
+
+  .custP {
+    align-items: flex-start;
+
+    left: 20px;
+  }
+
+  .t2 {
+    font-size: 38px;
+  }
+  .right-section4 > h4 {
+    position: relative;
+    top: 80px;
+    margin-left: 40px;
+  }
+
+  .svg1 {
+    position: relative;
+    left: 90px;
+  }
+
+  .illustration {
+    position: relative;
+    margin-left: -40px;
+  }
+}

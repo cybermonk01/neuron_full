@@ -1,0 +1,116 @@
+* {
+  font-family: "Orbitron";
+}
+
+.navbar {
+  padding: 20px 60px;
+}
+
+.list {
+  display: flex;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 60px;
+}
+ul {
+  list-style: none;
+}
+
+.list-item {
+  margin-left: 80px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button-group {
+  display: flex;
+  position: relative;
+  top: 20px;
+}
+
+.search-icon {
+  transform: scale(0.8);
+  position: relative;
+  bottom: 10px;
+  margin-right: 10px;
+}
+
+.nav-button {
+  background-color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.main-img {
+  height: 70vh;
+  position: absolute;
+  bottom: 300px;
+  left: -140px;
+}
+
+.pattern {
+  position: relative;
+  right: 40px;
+}
+
+.hero-container {
+  display: flex;
+  position: relative;
+  top: 400px;
+  left: 280px;
+}
+
+.hero-container-right {
+  position: relative;
+  bottom: 300px;
+  right: 220px;
+}
+
+.hero-heading {
+  font-size: 48px;
+}
+
+.hero-description {
+  text-align: center;
+}
+
+.buttoned {
+  background-color: #fff;
+  border-radius: 3px;
+  margin-left: 20px;
+  position: relative;
+  left: 180px;
+  margin-top: 40px;
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+}
+
+.contact {
+  position: relative;
+  top: 70px;
+  left: 270px;
+  align-items: center;
+}
+
+.globe-pattern {
+  position: relative;
+  bottom: 400px;
+  transform: scale(0.8);
+}
+.start-pattern {
+  position: relative;
+  bottom: 350px;
+  left: 540px;
+}
+
+.contact-heading {
+  position: relative;
+  left: 40px;
+}

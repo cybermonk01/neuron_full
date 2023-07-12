@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&family=Roboto:wght@100;300;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #7030cc;
+  height: 600px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  margin-left: 40px;
+  list-style-type: none;
+  color: #fff;
+}
+
+nav > img {
+  width: 120px;
+}
+
+.button {
+  background-color: rgb(60, 100, 231);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.active {
+  color: rgb(60, 111, 231);
+}
+
+.left-section > h1 {
+  font-size: 62px;
+  color: #fff;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.left-section > p {
+  color: #fff;
+  margin-left: 80px;
+  margin-top: 5px;
+}
+
+.right-section > img {
+  width: 620px;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.section2 {
+  display: flex;
+}
+
+.saas {
+  width: 650px;
+}
+.right-section2 {
+  float: right;
+  position: relative;
+  top: 120px;
+  left: 180px;
+}
+
+.right-section2 > h1 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.tags {
+  position: relative;
+  left: 40px;
+  margin-top: 40px;
+  list-style-type: none;
+}
+.tags > h2 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.tags > p {
+  line: spacing 10px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+
+.Card-img > div > img {
+  width: 73px;
+}
+.Feature-Heading > h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Feature {
+  gap: 39px;
+  margin-bottom: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Feature-holder {
+  display: flex;
+  width: 66%;
+  height: 300px;
+  justify-content: space-around;
+}
+.card {
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 40px;
+  margin-left: 30px;
+  box-shadow: rgb(0 0 0 / 15%) 2.2px 1.95px 1.95px 2.6px;
+  align-items: center;
+  justify-content: space-around;
+}
+.Card-img {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Card-details {
+  width: 100%;
+  height: 50%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.card:hover > .Card-details {
+  background-color: #6429b7;
+  color: white;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.Card-img > div {
+  width: 104px;
+  display: flex;
+  height: 100px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.Clean-code > .Card-img > div {
+  background-color: #faeaeb;
+}
+.Data > .Card-img > div {
+  background-color: #fbf0ee;
+}
+.Secured > .Card-img > div {
+  background-color: #e9f4f6;
+}
+.support > .Card-img > div {
+  background-color: #f2e7f5;
+}
+
+@media screen and (max-width: 1100px) {
+  .left-section > h1 {
+    font-size: 42px;
+  }
+
+  .left-section > p {
+    font-size: 13px;
+  }
+
+  .right-section > img {
+    width: 350px;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+  }
+
+  header {
+    height: 500px;
+  }
+
+  .Feature-holder {
+    transform: scale(0.9);
+  }
+
+  .card {
+    padding: 40px;
+  }
+
+  .right-section2 {
+    position: relative;
+    right: 140px;
+    float: right;
+    margin-bottom: 140px;
+  }
+
+  .left-section2 {
+    transform: scale(0.6);
+    position: relative;
+    margin-right: 70px;
+  }
+
+  .section2 {
+    padding: 40px;
+    flex-direction: column;
+  }
+  .card:hover > .Card-details {
+    background-color: #6429b7;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+  }
+}
